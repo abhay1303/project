@@ -1,11 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react"
+import Sum from "./Functions/Sum";
+const App = () => {
 
-function App() {
   return (
-   <div>
-    hello
-   </div>
+    <div>
+      <h1>Practice</h1>
+      <Sum />
+    </div>
   );
 }
 
